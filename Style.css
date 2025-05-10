@@ -1,0 +1,138 @@
+.profile-img {
+    margin: 15px auto;
+    display: block;
+    width: 95px;
+    border: 8px solid; 
+    border-radius: 50%;
+    box-shadow: 0 0 10px var(--default-color);
+    transition: all 0.3s ease-in-out;
+    border: 8px solid #363535;
+}
+.Icon {
+    color: white;
+    display: inline-block;
+    font-size: 16px;
+    position: relative;
+    margin: 0 5px;
+    text-align: center;
+}
+header {
+    color: var(--default-color);
+    background-color: #040b14;;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 0 15px;
+    width: 270px;
+    border-right: 1px solid;
+    text-align: center;
+    align-items: center;
+}
+.containers-socials {
+    display: flex;
+    align-items: center;
+    gap: 17px; 
+    margin-left: 8px;
+}
+.social-icons {
+  margin-bottom: 1px; 
+}
+
+.bottom-menu {
+  margin-top: 1px; 
+}
+.socials{
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #2d2e2f;
+    width: 35px;
+    height: 35px;
+    align-items: center;
+}
+h1, h2, h3 {
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-weight: 360;
+}
+.socials:hover {
+    background-color: rgb(20, 157, 221);
+    box-shadow: 0 0 10px var(--default-color);
+}
+.Name {
+    color: white;
+    display: block;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+    font-family: "Raleway", sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+}
+nav{
+    font-family: var(--nav-font);
+    font-size: 16px;
+    font-weight: 350;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 15px 10px;
+    white-space: nowrap;
+    transition: 0.3s;
+    color: #ffffff;
+    margin-top: 20px;
+}
+.navicon{
+    display: inline-block;
+    line-height: 1;
+    color: #ffffff;
+    margin-left: 10px;
+    align-items: left;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    font-size: 15px; 
+    margin-top: 6px;   
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li {
+    margin: 1px 0;
+    text-align: center;
+    font-size: 1.1em;
+    transition: all 0.3s ease-in-out;
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+    display: flex;
+    padding: 10px 0;
+    margin-left: 0px;
+}
+span {
+    display: inline-block;
+    font-size: 10px;
+    margin-right: 10px;
+    color: #a7a1a1;
+    font-size: 16px;
+    font-family: "poppins", sans-serif;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: 100;
+}
+span:hover {
+    color: white;
+}
+body{
+    margin-left : 330px;
+    margin-top: 0px;
+    margin-right:0px;
+    margin-bottom:0px;
+    font-family: "Raleway", sans-serif;
+}
