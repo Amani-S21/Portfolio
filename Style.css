@@ -167,8 +167,8 @@ span:visited {
     font-family: "Raleway", sans-serif;
     font-size: 4em;
     text-align: center;
-    margin-left: 30px;
-    margin-top: 250px;
+    margin-left: 40px;
+    margin-top: 200px;
     position: absolute;
 }
 .Description{
@@ -178,8 +178,8 @@ span:visited {
     font-family: "Raleway", sans-serif;
     font-size: 2em;
     text-align: center;
-    margin-left: 30px;
-    margin-top: 340px;
+    margin-left: 40px;
+    margin-top: 280px;
 }
 body{
     margin-left : 330px;
@@ -252,7 +252,7 @@ body{
     height: 60%;
     object-fit: cover;
     position: absolute;
-    margin-top: 250px;
+    margin-top: 170px;
     margin-left: 360px;
     display: inline;
 }
@@ -263,7 +263,7 @@ body{
     width: 45%;
     position: absolute;
     margin-top: 10px;
-    margin-left: 5px;
+    margin-left: 50px;
 }
 .list_b{
     display: flex;
@@ -313,3 +313,60 @@ body{
     font-family: "Roboto", sans-serif;
     line-height: 1.5;
 }
+.stats-row {
+      display: flex !important;
+      flex-wrap: nowrap !important;
+      overflow-x: auto;
+      gap: 20px;
+      padding: 20px 0;
+    }
+
+    .stats-row > .col-lg-3,
+    .stats-row > .col-md-6 {
+      flex: 0 0 auto !important;
+      width: auto !important;
+      max-width: none !important;
+    }
+
+    .stats-item {
+      background: #fff;
+      padding: 20px;
+      min-width: 220px;
+      text-align: center;
+      border-radius: 10px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .stats-item:hover {
+      transform: translateY(-5px);
+    }
+
+    .stats-item i {
+      font-size: 40px;
+      color: #0dcaf0;
+      margin-bottom: 10px;
+    }
+
+    .stats-item .purecounter {
+      font-size: 48px;
+      font-weight: bold;
+      color: #111;
+    }
+
+    .stats-item p {
+      margin-top: 10px;
+      font-size: 14px;
+      color: #666;
+    }
+
+    .stats-item p strong {
+      display: block;
+      font-size: 16px;
+      color: #333;
+    }
+
+    .stats-item p span {
+      font-size: 13px;
+      color: #888;
+    }
